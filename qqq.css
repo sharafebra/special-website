@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+       background-image: url("mer2.avif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li a:hover{
+    background-color: firebrick;
+}
+
+nav li {
+    margin-right: 20px;
+   
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: left;
+
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+.hero h4 a:link{color: white;}
+.hero a:visited{color:white;}
+.hero a:hover{color: blue;}
+.hero a:active{color: black;}
+
+.hero h4 {
+    position: absolute;
+    top: 73%;
+    right: 50%;
+    font-size: 40px;
+    color: greenyellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h3 {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.car-types {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.car-type {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.car-type img {
+    max-width: 100%;
+}
+
+.car-type h4 {
+    margin-top: 10px;
+    color: white;
+}
+
+#about-us {
+    background-color: #f8f8f8;
+    margin-top: 30px;
+    padding: 50px;
+    text-align: left;
+}
+
+#about-us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer table {
+    margin: 0 auto;
+}
+
+footer td {
+    padding: 5px 10px;
+}

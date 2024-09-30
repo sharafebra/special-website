@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="icon.avif">
+    <title>Special Cars</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-image: url("mer2.avif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+     background-color: darkgray;
+
+}
+
+header {
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li a:hover{
+    background-color: firebrick;
+}
+
+nav li {
+    margin-right: 20px;
+   
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.sedan{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 100px;
+                    }
+        .item {
+            background-color: #fff;
+            border: 3px solid #ddd;
+            margin: 10px;
+            width: 25%;
+            text-align: center;
+        }
+        .item p{
+            text-align: left;
+        }
+        .item img {
+            width: 100%;
+            height: 60%;
+        }
+        .item .description {
+            padding: 5px;
+        }
+        @media (max-width: 768px) {
+            .item {
+                width: calc(50% - 50px);
+            }
+        }
+       
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer table {
+    margin: 0  auto;
+}
+
+footer td {
+    padding: 5px 10px;
+}
+    </style>
+</head>
+<body>
+ <header>
+        <h2 >Special Cars</h2>
+        <nav>
+            <ul>
+                <li><a href="special.html">Home</a></li>
+                <li><a href="#">Log-in</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="sedan">
+    Sport cars
+    
+</nav>
+<div class="container">
+        <div class="item">
+            <img src="MAC.jpg" alt="Luxury car">
+            <div class="description">
+                <h3>MCLAREN</h3>
+                <p>Type: Mclaren Arture.</p><p>Model: 2022.</p><p>Price per day: 2000$.</p>
+            </div>
+        </div>
+  
+         <div class="item">
+            <img src="MER.jpg" alt="Luxury car">
+            <div class="description">
+                <h3>MERCEDES</h3>
+                <p>Type: Mercedes-AMG GT Black Series.</p><p>Model: 2022.</p><p>Price per day: 2700$.</p>
+            </div>
+        </div>
+         <div class="item">
+            <img src="ASTON.jpg" alt="Luxury car">
+            <div class="description">
+                <h3>ASTON MARTIN</h3>
+                <p>Type: Aston Martin.</p><p>Model: 2021.</p><p>Price per day: 1500$.</p>
+            </div>
+        </div>
+         <div class="item">
+            <img src="DODGE.jpg" alt="Luxury car">
+            <div class="description">
+                <h3>DODGE</h3>
+                <p>Type: Dodge Charger SRT.</p><p>Model: 2023.</p><p>Price per day: 1200$.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="LAMB.jpg" alt="Sport car">
+            <div class="description">
+                <h3>LAMBORGHINI</h3>
+                <p>Type: Lamborghini Centenario.</p><p>Model: 2024.</p><p>Price per day: 3000$.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="FER.jpg" alt="Sedan car">
+            <div class="description">
+                <h3>FERRARI</h3>
+                <p>Type: Ferrari.</p><p>Model: 2022.</p><p>Price per day: 2500$.</p>
+            </div>
+        </div>
+    </div>
+
+
+      <footer>
+        <table>
+            <tr>
+                <td>Phone:</td>
+                <td>+967*********</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>sharafebrahimalmoshiki@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Location:</td>
+                <td>Sana'a, Yemen</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

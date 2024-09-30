@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="icon.avif">
+
+  <title>Special Cars</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+         background-image: url("mer2.avif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      padding: 0;
+      margin: 0;
+    }
+header {
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+   
+}
+li a:hover{
+    background-color: firebrick;
+
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+
+    input[type=text], textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 20px;
+      resize: none;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer table {
+    margin: 0 auto;
+}
+
+footer td {
+    padding: 5px 10px;
+}
+  </style>
+</head>
+<body>
+  <header>
+        <h2>Special Cars</h2>
+        <nav>
+            <ul>
+                <li><a href="special.html">Home</a></li>
+                 <li><a href="#">Log-in</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required autofocus>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="Your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here" style="height:200px" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <footer>
+        <table>
+            <tr>
+                <td>Phone:</td>
+                <td>+967*********</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>sharafebrahimalmoshiki@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Location:</td>
+                <td>Sana'a, Yemen</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

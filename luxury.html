@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="icon.avif">
+    <title>Special Cars</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-image: url("mer2.avif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+     background-color: darkgray;
+
+}
+
+header {
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li a:hover{
+    background-color: firebrick;
+}
+
+nav li {
+    margin-right: 20px;
+   
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.sedan{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+                    }
+        .item {
+            background-color: #fff;
+            border: 3px solid #ddd;
+            margin: 10px;
+            width: 25%;
+            text-align: center;
+        }
+        .item p{
+            text-align: left;
+        }
+        .item img {
+            width: 100%;
+            height: 60%;
+        }
+        .item .description {
+            padding: 5px;
+        }
+        @media (max-width: 768px) {
+            .item {
+                width: calc(50% - 50px);
+            }
+        }
+       
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer table {
+    margin: 0  auto;
+}
+
+footer td {
+    padding: 5px 10px;
+}
+    </style>
+</head>
+<body>
+ <header>
+        <h2 >Special Cars</h2>
+        <nav>
+            <ul>
+                <li><a href="special.html">Home</a></li>
+                <li><a href="#">Log-in</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="sedan">
+    Luxury Cars
+    
+</nav>
+<div class="container">
+        <div class="item">
+            <img src="ROZ.jpg" alt="Luxury car">
+            <div class="description">
+                <h3>ROLLS-ROYCE</h3>
+                <p>Type: Rolls-Royce Wraith.</p><p>Model: 2021.</p><p>Price per day: 1500$.</p><p>Optional: with private driver.</p>
+            </div>
+        </div>
+  
+         <div class="item">
+            <img src="MAYB.jpg" alt="Luxury car">
+            <div class="description">
+                <h3>MERCEDES</h3>
+                <p>Type: Mercedes-Maybach S-Class.</p><p>Model: 2024.</p><p>Price per day: 1300$.</p><p>Optional: with private driver.</p>
+            </div>
+        </div>
+         <div class="item">
+            <img src="BMW.jpg" alt="Luxury car">
+            <div class="description">
+                <h3>BMW</h3>
+                <p>Type: BMW 7 Series.</p><p>Model: 2024.</p><p>Price per day: 1100$.</p><p>Optional: with private driver.</p>
+            </div>
+        </div>
+         <div class="item">
+            <img src="RANG.jpg" alt="Luxury car">
+            <div class="description">
+                <h3>RANGE ROVER</h3>
+                <p>Type: Range Rover SUV.</p><p>Model: 2024.</p><p>Price per day: 600$.</p><p>Optional: with private driver.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="MERV.jpg" alt="Sport car">
+            <div class="description">
+                <h3>MERCEDES</h3>
+                <p>Type: Mercedes Van.</p><p>Model: 2019.</p><p>Price per day: 500$.</p><p>Optional: with private driver.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imageL.jpg" alt="Sedan car">
+            <div class="description">
+                <h3>BENTLEY</h3>
+                <p>Type: Bentley Flying Spur.</p><p>Model: 2024.</p><p>Price per day: 800$.</p><p>Optional: with private driver.</p>
+            </div>
+        </div>
+    </div>
+
+
+      <footer>
+        <table>
+            <tr>
+                <td>Phone:</td>
+                <td>+967*********</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>sharafebrahimalmoshiki@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Location:</td>
+                <td>Sana'a, Yemen</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
